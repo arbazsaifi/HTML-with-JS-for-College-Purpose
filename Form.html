@@ -1,0 +1,47 @@
+<html>
+
+<head>
+<title>FORM</title>
+</head>
+
+<body>
+
+<script>
+	function dd() {
+	if(f1.text1.value=="" || f1.text2.value=="")  {
+		alert("Values should not Empty");
+	}
+}
+</script>
+
+
+
+<center><h1>FORM</h1></center>
+
+<form name="f1">
+
+First Name : <input type="text" name="text1"><br>
+Last Name : <input type="text" name="text2"><br>
+Program : <select>
+		<option>BCA</option>	
+		<option>MCA</option>
+	  </select> <br>
+Course : <select>
+		<option>C</option>
+		<option>C++</option>
+		<option>JAVA</option>
+		<option>Python</option>
+	</select><br>
+
+<input type="button" name="submit" value="Submit" onclick="dd()">
+<input type="reset" name="reset" value="Reset">
+
+
+
+</form>
+
+
+
+
+</body>
+</html>
